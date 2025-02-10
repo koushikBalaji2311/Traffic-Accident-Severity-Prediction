@@ -20,6 +20,6 @@ def load_and_preprocess_data(file_path):
     return data
 
 
-processed_data = load_and_preprocess_data("data/raw_data.csv")
+processed_data = load_and_preprocess_data("give your data path")
 processed_data.to_csv("data/processed_data.csv", index=False)
 print("Data preprocessing completed and saved.")
