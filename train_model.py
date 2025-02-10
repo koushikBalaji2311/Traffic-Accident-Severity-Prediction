@@ -45,4 +45,4 @@ def train_model(data_path, model_path):
     print(f"Model trained and saved to {model_path}")
 
 
-train_model("dataset path", "give the location where the model needs to be stored")
+train_model("data/processed_data.csv", "models/lightgbm_model.txt")
